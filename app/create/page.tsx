@@ -1,6 +1,6 @@
 import { Navbar } from '@/components/Navbar'
 import React from 'react'
-import CreateLandingPage from './createLandingPage'
+import CreateLandingPage from './CreateLandingPage'
 
 
 export default async function Page (){
