@@ -4,6 +4,9 @@ import { createClient } from "@/utils/supabase/server";
 import ConnectSupabaseSteps from "@/components/tutorial/ConnectSupabaseSteps";
 import SignUpUserSteps from "@/components/tutorial/SignUpUserSteps";
 import Header from "@/components/Header";
+import { Button } from "@/components/ui/button"
+import Image from "next/image";
+
 
 export default async function Index() {
   const canInitSupabaseClient = () => {
